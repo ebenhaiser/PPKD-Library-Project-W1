@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #000000;
+}
+
+/* nav ul li a .active {
+    color: #000000;
+} */
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right p {
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.login-create .btn {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.login-create .btn:hover {
+    background-color: #ddd;
+}
+
+.login-create .login-button {
+    background-color: #007bff;
+    color: white;
+    margin-left: 10px;
+}
+
+.hero {
+    background: url('../img/heading2.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.login {
+    background: url('../img/heading2.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.login .user-photo {
+    background-color: #ffffff;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; /* Add this line */
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.hero .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.dashboard {
+    height: 100vh;
+    background-image: url('../img/heading2.jpg');
+    background-size: cover; /* Mengatur agar gambar menutupi seluruh halaman */
+    background-position: center; /* Mengatur gambar agar berada di tengah */
+    /* display: flex; */
+    justify-content: center; /* Mengatur konten di tengah secara horizontal */
+    align-items: center; /* Mengatur konten di tengah secara vertikal */
+}
+
+.dashboard .container {
+    display: flex;
+    align-items: center; /* Mengatur item dalam container agar berada di tengah secara vertikal */
+    color: white; /* Mengatur warna teks */
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.dashboard .container .logo-and-text {
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 250px;
+}
+
+.dashboard .logo {
+    max-width: 150px; /* Ukuran maksimum logo */
+    margin-right: 20px; /* Jarak antara logo dan teks */
+}
+
+.dashboard .text {
+    font-size: 24px; /* Ukuran font untuk teks */
+    max-width: 600px; /* Mengatur lebar maksimum teks */
+    text-align: left; /* Mengatur teks agar rata kiri */
+}
+
+.dashboard .logout-button {
+    padding: 10px 20px; /* Padding untuk tombol */
+    background-color: red; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Menghapus border tombol */
+    border-radius: 5px; /* Mengatur sudut tombol */
+    cursor: pointer; /* Mengubah cursor saat hover */
+    font-size: 18px; /* Ukuran font untuk tombol */
+    margin-bottom: auto;
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-right: auto;
+}
+
+.dashboard .logout-button:hover {
+    background-color: darkred; /* Warna tombol saat hover */
+}
+
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    color: #555;
+}
