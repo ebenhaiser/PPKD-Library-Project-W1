@@ -2,7 +2,7 @@
 session_start();
 
 // Include the user array
-require_once 'account-control.php';
+require_once 'user-control.php';
 
 if (isset($_POST['login'])) {
     $email = $_POST['email'];

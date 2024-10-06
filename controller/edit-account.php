@@ -13,7 +13,7 @@ if ($_SESSION["role"] != "admin") {
 }
 
 // Include user data from the user-control.php
-include 'account-control.php';
+include 'user-control.php';
 
 // Check if the ID is provided
 if (isset($_GET['id'])) {

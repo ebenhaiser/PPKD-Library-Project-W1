@@ -13,7 +13,7 @@ if ($_SESSION["role"] != "admin") {
 }
 
 // Include user data from the user-control.php
-include 'controller/account-control.php';
+include 'controller/user-control.php';
 ?>
 
 <!DOCTYPE html>
@@ -60,6 +60,8 @@ include 'controller/account-control.php';
 
     <section class="manage-accounts" style="background: url('assets/img/heading2.jpg') no-repeat center center/cover; height: 100vh;">
         <div class="container">
+                </br>
+                </br>
             <h2 class="text-white">Manage Accounts</h2>
             <table class="table table-bordered table-light">
                 <thead>
